@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A4D18821F30CC6C005A3F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D18811F30CC6C005A3F91 /* AppDelegate.swift */; };
+		6A4D18841F30CC6C005A3F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D18831F30CC6C005A3F91 /* ViewController.swift */; };
+		6A4D18871F30CC6C005A3F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D18851F30CC6C005A3F91 /* Main.storyboard */; };
+		6A4D18891F30CC6C005A3F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D18881F30CC6C005A3F91 /* Assets.xcassets */; };
+		6A4D188C1F30CC6C005A3F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4D188A1F30CC6C005A3F91 /* LaunchScreen.storyboard */; };
+		6A4D18971F30CC6C005A3F91 /* Nevercode_EvaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D18961F30CC6C005A3F91 /* Nevercode_EvaTests.swift */; };
+		6A4D18A21F30CC6C005A3F91 /* Nevercode_EvaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D18A11F30CC6C005A3F91 /* Nevercode_EvaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A4D18931F30CC6C005A3F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4D18761F30CC6C005A3F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4D187D1F30CC6C005A3F91;
+			remoteInfo = "Nevercode-Eva";
+		};
+		6A4D189E1F30CC6C005A3F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4D18761F30CC6C005A3F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4D187D1F30CC6C005A3F91;
+			remoteInfo = "Nevercode-Eva";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A4D187E1F30CC6C005A3F91 /* Nevercode-Eva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nevercode-Eva.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4D18811F30CC6C005A3F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A4D18831F30CC6C005A3F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A4D18861F30CC6C005A3F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A4D18881F30CC6C005A3F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A4D188B1F30CC6C005A3F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A4D188D1F30CC6C005A3F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4D18921F30CC6C005A3F91 /* Nevercode-EvaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nevercode-EvaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4D18961F30CC6C005A3F91 /* Nevercode_EvaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nevercode_EvaTests.swift; sourceTree = "<group>"; };
+		6A4D18981F30CC6C005A3F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4D189D1F30CC6C005A3F91 /* Nevercode-EvaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nevercode-EvaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4D18A11F30CC6C005A3F91 /* Nevercode_EvaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nevercode_EvaUITests.swift; sourceTree = "<group>"; };
+		6A4D18A31F30CC6C005A3F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4D187B1F30CC6C005A3F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4D188F1F30CC6C005A3F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4D189A1F30CC6C005A3F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4D18751F30CC6C005A3F91 = {
+			isa = PBXGroup;
+			children = (
+				6A4D18801F30CC6C005A3F91 /* Nevercode-Eva */,
+				6A4D18951F30CC6C005A3F91 /* Nevercode-EvaTests */,
+				6A4D18A01F30CC6C005A3F91 /* Nevercode-EvaUITests */,
+				6A4D187F1F30CC6C005A3F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A4D187F1F30CC6C005A3F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4D187E1F30CC6C005A3F91 /* Nevercode-Eva.app */,
+				6A4D18921F30CC6C005A3F91 /* Nevercode-EvaTests.xctest */,
+				6A4D189D1F30CC6C005A3F91 /* Nevercode-EvaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4D18801F30CC6C005A3F91 /* Nevercode-Eva */ = {
+			isa = PBXGroup;
+			children = (
+				6A4D18811F30CC6C005A3F91 /* AppDelegate.swift */,
+				6A4D18831F30CC6C005A3F91 /* ViewController.swift */,
+				6A4D18851F30CC6C005A3F91 /* Main.storyboard */,
+				6A4D18881F30CC6C005A3F91 /* Assets.xcassets */,
+				6A4D188A1F30CC6C005A3F91 /* LaunchScreen.storyboard */,
+				6A4D188D1F30CC6C005A3F91 /* Info.plist */,
+			);
+			path = "Nevercode-Eva";
+			sourceTree = "<group>";
+		};
+		6A4D18951F30CC6C005A3F91 /* Nevercode-EvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A4D18961F30CC6C005A3F91 /* Nevercode_EvaTests.swift */,
+				6A4D18981F30CC6C005A3F91 /* Info.plist */,
+			);
+			path = "Nevercode-EvaTests";
+			sourceTree = "<group>";
+		};
+		6A4D18A01F30CC6C005A3F91 /* Nevercode-EvaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A4D18A11F30CC6C005A3F91 /* Nevercode_EvaUITests.swift */,
+				6A4D18A31F30CC6C005A3F91 /* Info.plist */,
+			);
+			path = "Nevercode-EvaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4D187D1F30CC6C005A3F91 /* Nevercode-Eva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4D18A61F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-Eva" */;
+			buildPhases = (
+				6A4D187A1F30CC6C005A3F91 /* Sources */,
+				6A4D187B1F30CC6C005A3F91 /* Frameworks */,
+				6A4D187C1F30CC6C005A3F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nevercode-Eva";
+			productName = "Nevercode-Eva";
+			productReference = 6A4D187E1F30CC6C005A3F91 /* Nevercode-Eva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A4D18911F30CC6C005A3F91 /* Nevercode-EvaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4D18A91F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-EvaTests" */;
+			buildPhases = (
+				6A4D188E1F30CC6C005A3F91 /* Sources */,
+				6A4D188F1F30CC6C005A3F91 /* Frameworks */,
+				6A4D18901F30CC6C005A3F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4D18941F30CC6C005A3F91 /* PBXTargetDependency */,
+			);
+			name = "Nevercode-EvaTests";
+			productName = "Nevercode-EvaTests";
+			productReference = 6A4D18921F30CC6C005A3F91 /* Nevercode-EvaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A4D189C1F30CC6C005A3F91 /* Nevercode-EvaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4D18AC1F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-EvaUITests" */;
+			buildPhases = (
+				6A4D18991F30CC6C005A3F91 /* Sources */,
+				6A4D189A1F30CC6C005A3F91 /* Frameworks */,
+				6A4D189B1F30CC6C005A3F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4D189F1F30CC6C005A3F91 /* PBXTargetDependency */,
+			);
+			name = "Nevercode-EvaUITests";
+			productName = "Nevercode-EvaUITests";
+			productReference = 6A4D189D1F30CC6C005A3F91 /* Nevercode-EvaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4D18761F30CC6C005A3F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Steffen Matthischke";
+				TargetAttributes = {
+					6A4D187D1F30CC6C005A3F91 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					6A4D18911F30CC6C005A3F91 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A4D187D1F30CC6C005A3F91;
+					};
+					6A4D189C1F30CC6C005A3F91 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A4D187D1F30CC6C005A3F91;
+					};
+				};
+			};
+			buildConfigurationList = 6A4D18791F30CC6C005A3F91 /* Build configuration list for PBXProject "Nevercode-Eva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A4D18751F30CC6C005A3F91;
+			productRefGroup = 6A4D187F1F30CC6C005A3F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4D187D1F30CC6C005A3F91 /* Nevercode-Eva */,
+				6A4D18911F30CC6C005A3F91 /* Nevercode-EvaTests */,
+				6A4D189C1F30CC6C005A3F91 /* Nevercode-EvaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4D187C1F30CC6C005A3F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4D188C1F30CC6C005A3F91 /* LaunchScreen.storyboard in Resources */,
+				6A4D18891F30CC6C005A3F91 /* Assets.xcassets in Resources */,
+				6A4D18871F30CC6C005A3F91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4D18901F30CC6C005A3F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4D189B1F30CC6C005A3F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A4D187A1F30CC6C005A3F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4D18841F30CC6C005A3F91 /* ViewController.swift in Sources */,
+				6A4D18821F30CC6C005A3F91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4D188E1F30CC6C005A3F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4D18971F30CC6C005A3F91 /* Nevercode_EvaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4D18991F30CC6C005A3F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4D18A21F30CC6C005A3F91 /* Nevercode_EvaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A4D18941F30CC6C005A3F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4D187D1F30CC6C005A3F91 /* Nevercode-Eva */;
+			targetProxy = 6A4D18931F30CC6C005A3F91 /* PBXContainerItemProxy */;
+		};
+		6A4D189F1F30CC6C005A3F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4D187D1F30CC6C005A3F91 /* Nevercode-Eva */;
+			targetProxy = 6A4D189E1F30CC6C005A3F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A4D18851F30CC6C005A3F91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4D18861F30CC6C005A3F91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A4D188A1F30CC6C005A3F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4D188B1F30CC6C005A3F91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A4D18A41F30CC6C005A3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A4D18A51F30CC6C005A3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4D18A71F30CC6C005A3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nevercode-Eva/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.matthischke.Nevercode-Eva";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A4D18A81F30CC6C005A3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nevercode-Eva/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.matthischke.Nevercode-Eva";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A4D18AA1F30CC6C005A3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nevercode-EvaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.matthischke.Nevercode-EvaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nevercode-Eva.app/Nevercode-Eva";
+			};
+			name = Debug;
+		};
+		6A4D18AB1F30CC6C005A3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nevercode-EvaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.matthischke.Nevercode-EvaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nevercode-Eva.app/Nevercode-Eva";
+			};
+			name = Release;
+		};
+		6A4D18AD1F30CC6C005A3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Nevercode-EvaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.matthischke.Nevercode-EvaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Nevercode-Eva";
+			};
+			name = Debug;
+		};
+		6A4D18AE1F30CC6C005A3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Nevercode-EvaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.matthischke.Nevercode-EvaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Nevercode-Eva";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4D18791F30CC6C005A3F91 /* Build configuration list for PBXProject "Nevercode-Eva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4D18A41F30CC6C005A3F91 /* Debug */,
+				6A4D18A51F30CC6C005A3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4D18A61F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-Eva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4D18A71F30CC6C005A3F91 /* Debug */,
+				6A4D18A81F30CC6C005A3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A4D18A91F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-EvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4D18AA1F30CC6C005A3F91 /* Debug */,
+				6A4D18AB1F30CC6C005A3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A4D18AC1F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-EvaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4D18AD1F30CC6C005A3F91 /* Debug */,
+				6A4D18AE1F30CC6C005A3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4D18761F30CC6C005A3F91 /* Project object */;
+}
