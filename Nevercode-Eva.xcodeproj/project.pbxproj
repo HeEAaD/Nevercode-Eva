@@ -135,6 +135,7 @@
 				6A4D187A1F30CC6C005A3F91 /* Sources */,
 				6A4D187B1F30CC6C005A3F91 /* Frameworks */,
 				6A4D187C1F30CC6C005A3F91 /* Resources */,
+				6A73898D1F30CE960089AB77 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +254,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A73898D1F30CE960089AB77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "system_profiler SPHardwareDataType";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A4D187A1F30CC6C005A3F91 /* Sources */ = {
@@ -505,6 +522,7 @@
 				6A4D18A81F30CC6C005A3F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4D18A91F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-EvaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +531,7 @@
 				6A4D18AB1F30CC6C005A3F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4D18AC1F30CC6C005A3F91 /* Build configuration list for PBXNativeTarget "Nevercode-EvaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +540,7 @@
 				6A4D18AE1F30CC6C005A3F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
